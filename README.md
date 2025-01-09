@@ -1,7 +1,7 @@
 # Multifactor Authentication System
 
 ## Project Overview
-This project introduces an advanced **Multifactor Authentication System** that integrates **voice recognition**, **keystroke dynamics**, and **geolocation** for enhanced security. The system leverages cutting-edge methods in feature extraction, machine learning, and geolocation verification to provide robust authentication.
+This project introduces an advanced **Multifactor Authentication System** that integrates **voice recognition**, **keystroke dynamics**, and **geolocation** for enhanced security. The system leverages feature extraction, machine learning, and geolocation verification to provide authentication.
 
 ## Features
 - **Voice Recognition**: Utilizes Mel-Frequency Cepstral Coefficients (MFCC), pitch, and tone analysis for precise user identification.
@@ -55,21 +55,11 @@ Includes utility functions for:
    - Provide real-time voice and typing inputs.
    - The system calculates a decision score to determine authentication success.
 
-## Future Enhancements
-- **AI Voice Detection**: Incorporate an SVM-based layer to detect AI-generated voices.
-- **Enhanced Geolocation**: Add support for Wi-Fi and cellular signal triangulation.
-- **Continuous Authentication**: Implement ongoing verification instead of point-in-time checks.
-- **Privacy Enhancements**: Use encryption for sensitive data.
-
 ## Limitations
 - High false positive rates for AI-generated voices.
 - Geolocation accuracy depends on the user's network configuration.
 - Limited testing dataset; system accuracy can improve with broader user data.
 
-## Contact
-For queries or contributions, please reach out to:
-- **Gurmanjot Singh Padda**: [gurmanpadda@mail.fresnostate.edu](mailto:gurmanpadda@mail.fresnostate.edu)
 
----
 
 This README provides a comprehensive guide to understanding, running, and extending the Multifactor Authentication System.
